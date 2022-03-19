@@ -1,17 +1,6 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-.section {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
-
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
-}
 .btn {
   background: var(--clr-primary-5);
   display: inline-block;

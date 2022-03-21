@@ -5,6 +5,7 @@ import Accordion from './04-accordion/App'
 import Menu from './05-menu/App'
 import Tabs from './06-tabs/App'
 import Slider from './07-slider/App'
+import LoremIpsum from './08-lorem-ipsum/App'
 
 
 
@@ -16,4 +17,5 @@ export const Projects = {
   Menu,
   Tabs,
   Slider,
+  LoremIpsum,
 }

@@ -37,6 +37,7 @@ function App() {
           <input type="text" name={color} value={color} onChange={(e) => setColor(e.target.value)}
             placeholder='#f15025'
             className={`${isError && 'error'}`}
+            autoFocus={true}
           />
           <button className='btn' type='submit'>submit</button>
         </form>

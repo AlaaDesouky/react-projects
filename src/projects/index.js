@@ -7,6 +7,7 @@ import Tabs from './06-tabs/App'
 import Slider from './07-slider/App'
 import LoremIpsum from './08-lorem-ipsum/App'
 import ColorGenerator from './09-color-generator/App'
+import GroceryBud from './10-grocery-bud/App'
 
 
 
@@ -19,5 +20,6 @@ export const Projects = {
   Tabs,
   Slider,
   LoremIpsum,
-  ColorGenerator
+  ColorGenerator,
+  GroceryBud,
 }

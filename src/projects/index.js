@@ -9,6 +9,7 @@ import LoremIpsum from './08-lorem-ipsum/App'
 import ColorGenerator from './09-color-generator/App'
 import GroceryBud from './10-grocery-bud/App'
 import Navbar from './11-navbar/App'
+import Sidebar from './12-sidebar-modal/App'
 
 
 
@@ -24,4 +25,5 @@ export const Projects = {
   ColorGenerator,
   GroceryBud,
   Navbar,
+  Sidebar,
 }

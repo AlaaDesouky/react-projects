@@ -10,7 +10,7 @@ import ColorGenerator from './09-color-generator/App'
 import GroceryBud from './10-grocery-bud/App'
 import Navbar from './11-navbar/App'
 import Sidebar from './12-sidebar-modal/App'
-
+import Stripe from './13-stripe-submenus/App'
 
 
 export const Projects = {
@@ -26,4 +26,5 @@ export const Projects = {
   GroceryBud,
   Navbar,
   Sidebar,
+  Stripe,
 }

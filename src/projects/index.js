@@ -11,6 +11,7 @@ import GroceryBud from './10-grocery-bud/App'
 import Navbar from './11-navbar/App'
 import Sidebar from './12-sidebar-modal/App'
 import Stripe from './13-stripe-submenus/App'
+import Cart from './14-cart/App'
 
 
 export const Projects = {
@@ -27,4 +28,5 @@ export const Projects = {
   Navbar,
   Sidebar,
   Stripe,
+  Cart,
 }

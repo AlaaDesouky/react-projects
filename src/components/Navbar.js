@@ -1,17 +1,18 @@
 import Wrapper from '../assets/wrappers/Navbar'
 import { useState } from 'react'
 import { FaAlignLeft, FaExternalLinkAlt, FaInfo, FaCaretDown, FaGithub } from 'react-icons/fa'
+import Logo from './Logo'
 
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }) => {
   const [showDropdown, setShowDropdown] = useState(false)
   return (
     <Wrapper>
       <div className="nav-center">
-        <button className="toggle-btn" type='button'>
+        <button className="toggle-btn" type='button' onClick={toggleSidebar}>
           <FaAlignLeft />
         </button>
         <div>
-          <h3 className="logo-text">React Projects</h3>
+          <Logo />
         </div>
         <div className="btn-container">
           <button className='btn' type='button' onClick={() => setShowDropdown(!showDropdown)}>

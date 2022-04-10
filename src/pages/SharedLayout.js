@@ -1,6 +1,6 @@
 import Wrapper from '../assets/wrappers/SharedLayout'
 import { Outlet } from 'react-router-dom'
-import { Navbar, SmallSidebar } from '../components'
+import { Navbar, SmallSidebar, BigSidebar } from '../components'
 import { useState } from 'react'
 
 const SharedLayout = () => {
@@ -14,13 +14,14 @@ const SharedLayout = () => {
     <Wrapper>
       <main className="dashboard">
         <SmallSidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
-      </main>
-      <div>
-        <Navbar toggleSidebar={toggleSidebar} />
-        <div className="dashboard-page">
-          <Outlet />
+        <BigSidebar showSidebar={showSidebar} />
+        <div>
+          <Navbar toggleSidebar={toggleSidebar} />
+          <div className="dashboard-page">
+            <Outlet />
+          </div>
         </div>
-      </div>
+      </main>
     </Wrapper>
   )
 }

@@ -1,7 +1,8 @@
+import { FaCode } from 'react-icons/fa'
 const NavLinks = () => {
   return (
     <div className="nav-links">
-      project list goes here
+      <span className='icon'><FaCode /></span> project list goes here
     </div>
   )
 }

@@ -21,6 +21,7 @@ const Wrapper = styled.aside`
   }
   .content {
     background: var(--clr-white);
+    overflow-y: auto;
     width: var(--fluid-width);
     height: 95vh;
     border-radius: var(--radius);
@@ -67,7 +68,7 @@ const Wrapper = styled.aside`
     transition: var(--transition);
   }
   .active {
-    color: var(--clr-grey-9);
+    color: var(--clr-grey-2);
   }
   .active .icon {
     color: var(--clr-primary-5);

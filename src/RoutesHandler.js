@@ -8,14 +8,16 @@ const RoutesHandler = () => {
 
   return (
     <Routes>
-      <Route path='/' element={<ProjectsList />} />
-      <Route path='/shared' element={<SharedLayout />} />
-      {projectList.map((project, index) => {
-        return (
-          <Route path={`/projects/${project}`} element={Projects[project]()} key={index} />
-        )
-      })}
-
+      <Route
+        path='/'
+        element={<SharedLayout />}
+      >
+        {projectList.map((project, index) => {
+          return (
+            <Route path={`/projects/${project}`} element={Projects[project]()} key={index} />
+          )
+        })}
+      </Route>
       <Route path='*' element={<ProjectsList />} />
     </Routes>
   )
